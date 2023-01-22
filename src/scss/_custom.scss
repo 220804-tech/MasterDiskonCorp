@@ -1,0 +1,72 @@
+*{
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.form-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.order-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.form-row>[class*=col-] {
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.pill-num{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 100%;padding-top: 2px;
+}
+
+// LOGIN
+
+.login-content{
+    margin-top: 8rem;
+}
+
+.right-col{
+    height: 100vh;
+}
+
+.bg-malibu{
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%) !important;
+}
+
+.bg-forgot{
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%) !important;
+    height: 100vh;
+}
+
+th{
+    font-size: 15px;
+}
+
+label{
+    font-size: 14px;
+}
+
+.nav-item .nav-link{
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.text-badge{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+@media (max-width: 575.98px) { 
+    CAccordionHeader{
+        text-align: center;
+    }
+ }
